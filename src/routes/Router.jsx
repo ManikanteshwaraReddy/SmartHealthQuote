@@ -7,6 +7,7 @@ import PrivacyPolicy from "@/pages/privacy-policy";
 import TermsOfService from "@/pages/terms-of-service";
 import Chat from "@/pages/chat";
 import Providers from "@/pages/providers";
+import PrintQuote from "@/pages/PrintQuote";
 
 const AppRouter = () => {
   return (
@@ -60,6 +61,10 @@ const AppRouter = () => {
             <Footer />
           </>
         }
+      />
+      <Route
+      path="/print"
+      element={<PrintQuote/>}
       />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
