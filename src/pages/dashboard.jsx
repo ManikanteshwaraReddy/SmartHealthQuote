@@ -44,7 +44,7 @@ const Dashboard = () => {
                 </div>
               </div>
             </div>
-            <div className="hidden flex-1 flex justify-center md:block">
+            <div className="hidden flex-1 justify-center md:block">
               <div className="relative w-full max-w-md">
                 <div className="absolute -z-10 w-72 h-72 bg-blue-100 rounded-full blur-3xl opacity-70 top-0 -right-10"></div>
                 <div className="absolute -z-10 w-72 h-72 bg-green-100 rounded-full blur-3xl opacity-70 -bottom-10 -left-10"></div>
