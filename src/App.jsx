@@ -1,5 +1,5 @@
 import "./App.css";
-import { BrowserRouter as Router } from "react-router";
+import { BrowserRouter as Router } from "react-router-dom";
 import ScrollToTop from "./components/ui/ScrollToTop";
 import AppRouter from "@/routes/Router";
 

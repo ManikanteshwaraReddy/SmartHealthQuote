@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route, Navigate } from "react-router";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Header from "@/components/ui/header";
 import Footer from "@/components/ui/footer";
 import Dashboard from "@/pages/dashboard";
@@ -8,6 +8,7 @@ import TermsOfService from "@/pages/terms-of-service";
 import Chat from "@/pages/chat";
 import Providers from "@/pages/providers";
 import PrintQuote from "@/pages/PrintQuote";
+import AuthPage from "@/pages/AuthPage";
 
 const AppRouter = () => {
   return (
@@ -47,7 +48,7 @@ const AppRouter = () => {
         element={
           <>
             <Header />
-            <Chat/>
+            <Chat />
             <Footer />
           </>
         }
@@ -57,14 +58,22 @@ const AppRouter = () => {
         element={
           <>
             <Header />
-            <Providers/>
+            <Providers />
             <Footer />
           </>
         }
       />
+      <Route path="/print" element={<PrintQuote />} />
       <Route
-      path="/print"
-      element={<PrintQuote/>}
+        path="/auth"
+        element={
+          <>
+            {/* AuthPage typically doesn't have the main Header/Footer */}
+            {/* <Header /> */}
+            <AuthPage />
+            {/* <Footer /> */}
+          </>
+        }
       />
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
