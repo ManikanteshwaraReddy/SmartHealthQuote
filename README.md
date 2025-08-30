@@ -1,4 +1,4 @@
-# LLM-Insurance Quote
+# SmartHealthQuote
 
 ![LLM-Insurance Quote](https://insurance-quotation.vercel.app/logo.svg)
 
@@ -28,16 +28,14 @@ A modern, AI-powered platform that provides personalized insurance quotes based 
 
 ### Backend (Private Repository)
 > The backend is implemented in a separate private repository.  
-> It is powered by **Python (Flask)** and uses **Faiss** for vector similarity search.  
 > This frontend communicates with it via secure API calls using Axios.
 > A modular FastAPI backend for a health insurance chatbot using Retrieval-Augmented Generation (RAG) with Mistral 7B and Faiss vector search.
 > Features
-
-- 🤖 **Mistral 7B LLM**: Advanced language model for generating insurance quotes
-- 🔍 **Semantic Search**: Faiss vector database for intelligent policy matching
-- 📊 **RAG Pipeline**: Retrieval-Augmented Generation for context-aware responses
-- 🚀 **FastAPI**: High-performance async API framework
-- 📋 **Structured Data**: Pydantic models for type safety and validation
+> 🤖 **Mistral 7B LLM**: Advanced language model for generating insurance quotes
+> 🔍 **Semantic Search**: Faiss vector database for intelligent policy matching
+> 📊 **RAG Pipeline**: Retrieval-Augmented Generation for context-aware responses
+> 🚀 **FastAPI**: High-performance async API framework
+> 📋 **Structured Data**: Pydantic models for type safety and validation
 
 
 ## 📋 Pages
@@ -53,6 +51,6 @@ A modern, AI-powered platform that provides personalized insurance quotes based 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/ManikanteshwaraReddy/LLM-Insurance-Quote.git
-cd llm-insurance-quote
+git clone https://github.com/ManikanteshwaraReddy/SmartHealthQuote.git
+cd SmartHealthQuote
 
