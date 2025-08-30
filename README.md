@@ -1,12 +1,49 @@
-# React + Vite
+# LLM-Insurance Quote
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![LLM-Insurance Quote](https://insurance-quotation.vercel.app/logo.svg)
 
-Currently, two official plugins are available:
+A modern, AI-powered platform that provides personalized insurance quotes based on users' health history and needs through an interactive chat interface.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- **Interactive AI Chat Interface**: Step-by-step conversational UI that guides users through health questions  
+- **Personalized Quote Generation**: Tailored insurance quotes based on user inputs  
+- **Insurance Provider Directory**: Browse through a curated list of insurance providers  
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices  
+- **Dark Mode Support**: Toggle between light and dark themes for comfortable viewing  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Live Demo
+
+[View Live Demo](https://insurance-quotation.vercel.app/)
+
+## 🛠️ Technologies Used
+
+### Frontend (This Repo)
+- **Framework**: React + Vite  
+- **Styling**: Tailwind CSS  
+- **UI Components**: shadcn/ui  
+- **Icons**: Lucide React  
+- **HTTP Client**: Axios  
+- **Deployment**: Vercel  
+
+### Backend (Private Repository)
+> The backend is implemented in a separate private repository.  
+> It is powered by **Python (Flask)** and uses **Faiss** for vector similarity search.  
+> This frontend communicates with it via secure API calls using Axios.
+
+## 📋 Pages
+
+- **Homepage**: Welcoming hero section introducing the service  
+- **Chat Interface**: AI-powered conversational UI for collecting user information  
+- **Quote Result**: Displays personalized insurance quotes  
+- **Provider Directory**: Showcases insurance companies with details  
+- **Privacy Policy**: Detailed information about data handling  
+- **Terms of Service**: Legal terms and conditions  
+
+## 🔧 Installation
+
+### 1. Clone the Repository
+```bash
+git clone https://github.com/yourusername/llm-insurance-quote.git
+cd llm-insurance-quote
+
