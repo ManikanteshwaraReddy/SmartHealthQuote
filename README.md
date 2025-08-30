@@ -53,6 +53,6 @@ A modern, AI-powered platform that provides personalized insurance quotes based 
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/yourusername/llm-insurance-quote.git
+git clone https://github.com/ManikanteshwaraReddy/LLM-Insurance-Quote.git
 cd llm-insurance-quote
 
