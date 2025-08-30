@@ -31,8 +31,7 @@ A modern, AI-powered platform that provides personalized insurance quotes based 
 > It is powered by **Python (Flask)** and uses **Faiss** for vector similarity search.  
 > This frontend communicates with it via secure API calls using Axios.
 > A modular FastAPI backend for a health insurance chatbot using Retrieval-Augmented Generation (RAG) with Mistral 7B and Faiss vector search.
-
-## Features
+> Features
 
 - 🤖 **Mistral 7B LLM**: Advanced language model for generating insurance quotes
 - 🔍 **Semantic Search**: Faiss vector database for intelligent policy matching
